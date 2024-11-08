@@ -1,0 +1,18 @@
+{
+  "name": "SimpleExpressApp",
+  "version": "1.0.0",
+  "description": "a simple Express application using NodeJS",
+  "main": "index.js",
+  "author": "Inayat",
+  "license": "MIT",
+  "scripts": {
+    "start": "Nodemon index.js",
+    "serve": "Node indes.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@whiskeysockets/baileys": "^6.4.0",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
